@@ -65,13 +65,5 @@ public class GateMechanics : MonoBehaviour
         {  
         }
     }*/
-    private void OnTriggerEnter(Collider other)
-    {
-        if (gameObject.tag == "gate_finish")
-        {
-            other.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX|RigidbodyConstraints.FreezePositionZ;
-            //for (int i = 0; i < collisionCount; i++)
-            //{ other.gameObject.transform.position = new Vector3(collisionCount + 0, 5); }
-        }
-    }
+    
 }

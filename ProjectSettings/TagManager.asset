@@ -12,6 +12,7 @@ TagManager:
   - collected_garbage
   - collected_frosting
   - gate_finish
+  - CakeMov
   layers:
   - Default
   - TransparentFX
