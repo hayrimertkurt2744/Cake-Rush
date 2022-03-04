@@ -199,6 +199,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 776304682227231513, guid: a2c7f0df24b9c0144b77693e59416e4e, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     - target: {fileID: 1712051658190628181, guid: a2c7f0df24b9c0144b77693e59416e4e, type: 3}
       propertyPath: m_Name
       value: Cake_dough_collect (1)
@@ -256,6 +260,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 776304682227231513, guid: a2c7f0df24b9c0144b77693e59416e4e, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     - target: {fileID: 1712051658190628181, guid: a2c7f0df24b9c0144b77693e59416e4e, type: 3}
       propertyPath: m_Name
       value: Cake_dough_collect (3)
@@ -504,6 +512,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 776304682227231513, guid: a2c7f0df24b9c0144b77693e59416e4e, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     - target: {fileID: 1712051658190628181, guid: a2c7f0df24b9c0144b77693e59416e4e, type: 3}
       propertyPath: m_Name
       value: Cake_dough_collect (2)
@@ -960,6 +972,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 776304682227231513, guid: a2c7f0df24b9c0144b77693e59416e4e, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     - target: {fileID: 1712051658190628181, guid: a2c7f0df24b9c0144b77693e59416e4e, type: 3}
       propertyPath: m_Name
       value: Cake_dough_collect
@@ -1211,6 +1227,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2698243715575674003, guid: 049610f5d8490a447a2e5d75ea160023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7849160150731887762, guid: 049610f5d8490a447a2e5d75ea160023, type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7849160150731887763, guid: 049610f5d8490a447a2e5d75ea160023, type: 3}

@@ -11,10 +11,12 @@ public class GateMechanics : MonoBehaviour
     [SerializeField] private Material matGarbage;
     [SerializeField] private float height=0f;
     [SerializeField] private Movement movement;
+    private int collisionCount = 0;
     private void OnTriggerExit(Collider other)
     {
         OvenAndFrostingGate(other);
         //FinishGate(other);
+        
 
     }
     private void OvenAndFrostingGate(Collider other)
@@ -60,9 +62,16 @@ public class GateMechanics : MonoBehaviour
     {  height++;
         movement = GetComponent<Movement>();
         if (other.gameObject.CompareTag("collected_frosting")|| other.gameObject.CompareTag("collected_cake") && gameObject.tag=="finish_gate")
-        {
-            
-            
+        {  
         }
     }*/
+    private void OnTriggerEnter(Collider other)
+    {
+        if (gameObject.tag == "gate_finish")
+        {
+            other.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX|RigidbodyConstraints.FreezePositionZ;
+            //for (int i = 0; i < collisionCount; i++)
+            //{ other.gameObject.transform.position = new Vector3(collisionCount + 0, 5); }
+        }
+    }
 }
