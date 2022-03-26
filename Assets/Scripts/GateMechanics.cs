@@ -54,6 +54,8 @@ public class GateMechanics : MonoBehaviour
 
         }
 
+
+
         //if it is a garbage ,there will be no change
         //also for frosting+frosting=there will be no change
     }

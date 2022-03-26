@@ -5,7 +5,7 @@ using UnityEngine;
 public class NodeMovement : MonoBehaviour
 {
     public Transform connectedNode;
-    [SerializeField] private float offset = 1;
+    [SerializeField] private float offset = 2;
     public bool isFinished = false;
     private float posX;
     private float posY;

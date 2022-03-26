@@ -5,6 +5,8 @@ using UnityEngine;
 public class FinishGate : MonoBehaviour
 {
     private Movement movementScript;
+    public CakeDetector cakeDetector;
+    private CakeMaker cakeMaker;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,11 +19,19 @@ public class FinishGate : MonoBehaviour
         
     }
     private void OnTriggerExit(Collider other)
+
     {
+        /*for (int i = 0; i < cakeDetector.pieces.Count; i++)
+        {
+            Instantiate(cakeDetector.pieces[i], gameObject.transform.position, Quaternion.identity);
+        }*/
         if (other.gameObject.CompareTag("CakeMov") )
         {
             
             Debug.Log("collision detected");
+            cakeMaker.makeTheCake = true;
+
+            
         }
         else
         {

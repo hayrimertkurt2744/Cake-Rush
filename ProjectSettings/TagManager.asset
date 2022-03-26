@@ -13,6 +13,7 @@ TagManager:
   - collected_frosting
   - gate_finish
   - CakeMov
+  - collected_burned
   layers:
   - Default
   - TransparentFX
